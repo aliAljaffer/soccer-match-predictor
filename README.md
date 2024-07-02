@@ -1,6 +1,7 @@
 # Soccer Match Predictor
 
-A machine learning model using Random Trees Embedding with Extra Trees. See [./docs](./docs) and [Project Jupyter Notebook](./Ali-Aljaffer-final.ipynb)
+A machine learning model using Random Trees Embedding with Extra Trees. See [./docs](./docs), [Project presentation](./Ali-Aljaffer-final.pptx), [Project report](./Ali-Aljaffer-FinalProjectReport.pdf)
+
 
 ## Abstract
 

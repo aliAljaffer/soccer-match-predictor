@@ -3,8 +3,8 @@ from datetime import datetime
 import numpy as np
 import pandas as pd
 
-ranking = pd.read_csv('./datasets/fifa_ranking-2023-07-20.csv')
-game_results = pd.read_csv('./datasets/results.csv')
+ranking = pd.read_csv('../datasets/fifa_ranking-2023-07-20.csv')
+game_results = pd.read_csv('../datasets/results.csv')
 
 game_results['date'] = pd.to_datetime(game_results['date'])
 ranking['rank_date'] = pd.to_datetime(ranking['rank_date'])
@@ -70,4 +70,4 @@ df.fillna(df.mean().astype(int), inplace=True)
 print(df.head())
 
 df.sort_index(axis=1, ascending=True, inplace=True)
-df.transpose().to_csv('./datasets/rank_per_yr_T_sorted.csv')
+df.transpose().to_csv('../datasets/rank_per_yr_T_sorted.csv')

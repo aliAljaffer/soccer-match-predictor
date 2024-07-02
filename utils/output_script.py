@@ -5,9 +5,9 @@ from sklearn.preprocessing import LabelEncoder
 import random
 from IPython.display import display
 from datetime import datetime
-ranking_df = pd.read_csv('./datasets/fifa_ranking-2023-07-20.csv')
-game_results_df = pd.read_csv('./datasets/results.csv')
-rank_at_year_df = pd.read_csv('./datasets/rank_per_yr_T_sorted.csv')
+ranking_df = pd.read_csv('../datasets/fifa_ranking-2023-07-20.csv')
+game_results_df = pd.read_csv('../datasets/results.csv')
+rank_at_year_df = pd.read_csv('../datasets/rank_per_yr_T_sorted.csv')
 
 rank_at_year_df.set_index('Country',inplace=True)
 rank_at_year_df.info()
